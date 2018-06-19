@@ -1,2 +1,2 @@
-docker run -it --rm --name alpine-py3 -v "$PWD":/usr/src/myapp -w /usr/src/myapp alpine-py3 /usr/bin/python3 $1 $2 $3 $4 $5
+docker run -it --rm --name alpine_py3 -v "$PWD":/usr/src/myapp -w /usr/src/myapp joliva/alpine_py3:latest /usr/bin/python3 $1 $2 $3 $4 $5
 

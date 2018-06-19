@@ -1,1 +1,1 @@
-docker build -t alpine-py3 .
+docker build -t joliva/alpine_py3:latest .
